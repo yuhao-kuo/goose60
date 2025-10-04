@@ -1,5 +1,6 @@
 *backups/
 *bak/
+*.bak/
 *cache
 *auto_saved_files*
 .DS_Store
