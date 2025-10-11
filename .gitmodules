@@ -1,0 +1,3 @@
+[submodule "hardware/goose60rev2/lib/kiswitch"]
+	path = hardware/goose60rev2/lib/kiswitch
+	url = git@github.com:kiswitch/kiswitch.git
