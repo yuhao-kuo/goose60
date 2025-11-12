@@ -619,8 +619,16 @@
       "key_matrix"
     ],
     [
-      "37239e9d-aca5-4c56-ac06-a39353a3fad2",
-      "backlight"
+      "ebe9518e-2944-4824-beeb-b53cdcd0ad9c",
+      "connector"
+    ],
+    [
+      "d4dd5b1b-bf0f-4eef-9dff-196c67a468ff",
+      "power_manager"
+    ],
+    [
+      "b38c044c-abd9-4313-9c8a-54897f828a47",
+      "extern_memory"
     ]
   ],
   "text_variables": {}
