@@ -273,7 +273,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -281,24 +281,15 @@
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,8 +297,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -324,7 +324,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -386,7 +386,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -404,7 +404,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -422,7 +422,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "IO2"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -440,7 +440,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "IO3"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1673,6 +1673,94 @@
 		(uuid "e947c1d8-48d4-4a47-a34f-07c67fa2fedb")
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 115.57 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c9b8d04-b69b-410f-b3d4-4197245fcc20")
+		(property "Reference" "U3"
+			(at 104.14 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 104.14 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "b3e2290a-8afa-4476-9cbe-2fecea6bcb99")
+		)
+		(pin "5"
+			(uuid "8eef4e01-7a7d-4cfb-9049-17a6d92ecadb")
+		)
+		(pin "4"
+			(uuid "f853f58f-beba-4e17-8280-16a2b8e42cd3")
+		)
+		(pin "8"
+			(uuid "9d7667fb-b5f5-46d8-9a42-4977d94ddf3d")
+		)
+		(pin "6"
+			(uuid "40f94741-27fe-4a9c-a85f-ed965734f526")
+		)
+		(pin "1"
+			(uuid "b244284b-4783-4348-8c44-3004011ca6b4")
+		)
+		(pin "2"
+			(uuid "c42b132f-0a5c-4726-80e0-5bb7caffec38")
+		)
+		(pin "3"
+			(uuid "3835273f-6cd9-4f4e-9774-5ce1e53bde78")
+		)
+		(instances
+			(project ""
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 140.97 71.12 0)
 		(unit 1)
@@ -1699,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.192 71.12 90)
 			(effects
 				(font
@@ -1733,6 +1821,12 @@
 			(uuid "761f2f54-0bf1-4591-9eee-9c13903d6208")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "R4")
@@ -1799,6 +1893,12 @@
 			(uuid "03990f5f-264f-4516-8d5e-cffc81e6933c")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "#PWR02")
@@ -1868,6 +1968,12 @@
 			(uuid "0a919cb9-0de1-47e0-9843-722d112a4b4c")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "C15")
@@ -1934,6 +2040,12 @@
 			(uuid "0c8e9add-eead-4952-9345-5b17ec0b03d3")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "#PWR07")
@@ -2001,6 +2113,12 @@
 			(uuid "a87b0b5b-9b48-4c94-9d3e-7ad5c583ccbb")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "#PWR01")
@@ -2036,7 +2154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.302 71.12 90)
 			(effects
 				(font
@@ -2070,6 +2188,12 @@
 			(uuid "5754992e-f5a4-4315-a3d2-13d54e3e5e3b")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "R11")
@@ -2139,97 +2263,15 @@
 			(uuid "e4699b09-fba1-4b85-b6c4-340ffda6a353")
 		)
 		(instances
-			(project "goose60rev2"
-				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
-					(reference "C18")
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "C?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 115.57 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9232dddc-eca8-42f1-8987-08096ade8662")
-		(property "Reference" "U3"
-			(at 110.744 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 112.014 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "851d55a6-5379-436d-8a49-0c683ead88fd")
-		)
-		(pin "7"
-			(uuid "23c0ea49-be95-4346-ad37-dc171bf2a6e1")
-		)
-		(pin "6"
-			(uuid "f97a8f58-a1b0-476c-8877-1f16d837f9ea")
-		)
-		(pin "3"
-			(uuid "ef046368-01e7-4fdb-ba87-3a45cefa8277")
-		)
-		(pin "2"
-			(uuid "86012ba4-43f8-49d1-bec4-0d89ed467f5d")
-		)
-		(pin "1"
-			(uuid "99caee00-fc23-4ca8-9c6e-2de59eb1746a")
-		)
-		(pin "8"
-			(uuid "70c7ecaf-0053-42ad-8950-7861f9b76f35")
-		)
-		(pin "4"
-			(uuid "fa411af9-db8f-405f-a4d0-7263c639e56a")
-		)
-		(instances
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
-					(reference "U3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2261,7 +2303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx85SMTR"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -2295,6 +2337,12 @@
 			(uuid "d62a6f70-df9b-431f-b52e-6dc6986d339f")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "SW1")
@@ -2361,6 +2409,12 @@
 			(uuid "b0352d24-2f1b-42eb-a9d9-a999afb9b0de")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "#PWR09")
@@ -2428,6 +2482,12 @@
 			(uuid "4d64eaaf-5a66-4955-b0d1-0a372e8a412c")
 		)
 		(instances
+			(project "extern_memory"
+				(path "/172185c9-8f00-463a-881e-1dd557ca3810"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "#PWR08")
@@ -2436,4 +2496,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

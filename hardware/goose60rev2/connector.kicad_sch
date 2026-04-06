@@ -2715,6 +2715,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -3808,7 +3891,7 @@
 		(uuid "dc6b9dde-4dc8-4e4b-a9ea-279fb4c3c6b6")
 	)
 	(junction
-		(at 201.93 142.24)
+		(at 191.77 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8decb78-3d23-4b9c-bfdb-a687b0353d78")
@@ -3820,14 +3903,18 @@
 		(uuid "f97f22e0-e7c4-4c6a-ad8f-228f2dd2bcc9")
 	)
 	(junction
-		(at 238.76 142.24)
+		(at 228.6 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdaeb06f-1408-4b9f-8ddc-676be8707822")
 	)
+	(no_connect
+		(at 64.77 156.21)
+		(uuid "ed196a08-374b-4e69-a0ad-9a53b6558317")
+	)
 	(wire
 		(pts
-			(xy 233.68 116.84) (xy 245.11 116.84)
+			(xy 223.52 116.84) (xy 234.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 119.38) (xy 199.39 119.38)
+			(xy 194.31 119.38) (xy 189.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3917,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 201.93 144.78)
+			(xy 191.77 142.24) (xy 191.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 233.68 120.65)
+			(xy 234.95 120.65) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4057,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 142.24) (xy 238.76 144.78)
+			(xy 228.6 142.24) (xy 228.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4197,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.3) (xy 199.39 114.3)
+			(xy 194.31 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4257,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 124.46) (xy 199.39 124.46)
+			(xy 194.31 124.46) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4277,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 199.39 132.08)
+			(xy 194.31 132.08) (xy 189.23 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 129.54) (xy 199.39 129.54)
+			(xy 194.31 129.54) (xy 189.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 142.24) (xy 241.3 142.24)
+			(xy 228.6 142.24) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 199.39 127)
+			(xy 194.31 127) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -4607,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 129.54) (xy 233.68 129.54)
+			(xy 234.95 129.54) (xy 223.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4717,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 123.19) (xy 245.11 123.19)
+			(xy 223.52 123.19) (xy 234.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 233.68 127)
+			(xy 234.95 127) (xy 223.52 127)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 142.24) (xy 201.93 142.24)
+			(xy 189.23 142.24) (xy 191.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4787,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 238.76 142.24)
+			(xy 226.06 142.24) (xy 228.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 238.76 154.94)
+			(xy 228.6 152.4) (xy 228.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 116.84) (xy 199.39 116.84)
+			(xy 194.31 116.84) (xy 189.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4867,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 121.92) (xy 199.39 121.92)
+			(xy 194.31 121.92) (xy 189.23 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 204.47 142.24)
+			(xy 191.77 142.24) (xy 194.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5007,7 +5094,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 152.4) (xy 201.93 154.94)
+			(xy 191.77 152.4) (xy 191.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5127,7 +5214,7 @@
 	)
 	(global_label "ADC1"
 		(shape bidirectional)
-		(at 236.22 142.24 180)
+		(at 226.06 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5137,7 +5224,7 @@
 		)
 		(uuid "04a54dc9-d6e3-488c-b029-9c0096864408")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.2854 142.24 0)
+			(at 217.1254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5478,7 @@
 	)
 	(global_label "IOA_1"
 		(shape bidirectional)
-		(at 199.39 116.84 180)
+		(at 189.23 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5401,7 +5488,7 @@
 		)
 		(uuid "427f0c30-f78a-4a9f-8827-f0413f4a2ab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 116.84 0)
+			(at 179.9325 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5522,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 233.68 120.65 180)
+		(at 223.52 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5445,7 +5532,7 @@
 		)
 		(uuid "545e6c78-8518-41fc-aaa8-d0e112478454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6709 120.65 0)
+			(at 217.5109 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5566,7 @@
 	)
 	(global_label "IOA_2"
 		(shape bidirectional)
-		(at 199.39 119.38 180)
+		(at 189.23 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5489,7 +5576,7 @@
 		)
 		(uuid "6952ad2e-da15-4426-9553-b7e02f17f591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 119.38 0)
+			(at 179.9325 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5676,7 @@
 	)
 	(global_label "IOA_6"
 		(shape bidirectional)
-		(at 199.39 129.54 180)
+		(at 189.23 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5599,7 +5686,7 @@
 		)
 		(uuid "7ca64824-b3f5-47ab-b6f0-66ff123bc12a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 129.54 0)
+			(at 179.9325 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5698,7 @@
 	)
 	(global_label "IOA_3"
 		(shape bidirectional)
-		(at 199.39 121.92 180)
+		(at 189.23 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5621,7 +5708,7 @@
 		)
 		(uuid "7ee993a6-db28-486d-b35d-d4e37d8c82ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 121.92 0)
+			(at 179.9325 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5830,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 233.68 129.54 180)
+		(at 223.52 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5753,7 +5840,7 @@
 		)
 		(uuid "927d3aeb-689a-44cf-afe0-6230f072b102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7411 129.54 0)
+			(at 216.5811 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5962,7 @@
 	)
 	(global_label "IOA_7"
 		(shape bidirectional)
-		(at 199.39 132.08 180)
+		(at 189.23 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5885,7 +5972,7 @@
 		)
 		(uuid "aa5cf723-cdfc-4dc3-85e1-f2f9be11e298")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 132.08 0)
+			(at 179.9325 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6028,7 @@
 	)
 	(global_label "IOA_0"
 		(shape bidirectional)
-		(at 199.39 114.3 180)
+		(at 189.23 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5951,7 +6038,7 @@
 		)
 		(uuid "c2fdeb35-a213-4571-b56a-40850da087b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 114.3 0)
+			(at 179.9325 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6138,7 @@
 	)
 	(global_label "VREF"
 		(shape output)
-		(at 233.68 116.84 180)
+		(at 223.52 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6061,7 +6148,7 @@
 		)
 		(uuid "dd9bfa46-9eaa-4ddf-9d1b-b3e83b2878dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.0986 116.84 0)
+			(at 215.9386 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6204,7 @@
 	)
 	(global_label "IOA_5"
 		(shape bidirectional)
-		(at 199.39 127 180)
+		(at 189.23 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6127,7 +6214,7 @@
 		)
 		(uuid "dfe02a94-d223-4774-8400-5984683b3af1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 127 0)
+			(at 179.9325 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6226,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 233.68 123.19 180)
+		(at 223.52 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6149,7 +6236,7 @@
 		)
 		(uuid "e67b53e9-0ecd-47fd-852c-2d66054ad428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.713 123.19 0)
+			(at 215.553 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6248,7 @@
 	)
 	(global_label "ADC0"
 		(shape bidirectional)
-		(at 199.39 142.24 180)
+		(at 189.23 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6171,7 +6258,7 @@
 		)
 		(uuid "f137afe9-4f48-49d6-be57-6e6b43fb9d12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4554 142.24 0)
+			(at 180.2954 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6292,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 233.68 127 180)
+		(at 223.52 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6215,7 +6302,7 @@
 		)
 		(uuid "f547e331-f6b3-4044-93e0-37723f955952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7411 127 0)
+			(at 216.5811 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6314,7 @@
 	)
 	(global_label "IOA_4"
 		(shape bidirectional)
-		(at 199.39 124.46 180)
+		(at 189.23 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6237,7 +6324,7 @@
 		)
 		(uuid "f7f67b70-ca86-4217-9476-d788adde0e93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0925 124.46 0)
+			(at 179.9325 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6358,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 245.11 123.19 0)
+		(at 234.95 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6282,7 +6369,7 @@
 	)
 	(hierarchical_label "IO_6"
 		(shape bidirectional)
-		(at 204.47 129.54 0)
+		(at 194.31 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6293,7 +6380,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 245.11 127 0)
+		(at 234.95 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6304,7 +6391,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 245.11 129.54 0)
+		(at 234.95 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6315,7 +6402,7 @@
 	)
 	(hierarchical_label "IO_4"
 		(shape bidirectional)
-		(at 204.47 124.46 0)
+		(at 194.31 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,7 +6413,7 @@
 	)
 	(hierarchical_label "ADC0"
 		(shape bidirectional)
-		(at 204.47 142.24 0)
+		(at 194.31 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6337,7 +6424,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape output)
-		(at 245.11 120.65 0)
+		(at 234.95 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6348,7 +6435,7 @@
 	)
 	(hierarchical_label "IO_0"
 		(shape bidirectional)
-		(at 204.47 114.3 0)
+		(at 194.31 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6359,7 +6446,7 @@
 	)
 	(hierarchical_label "VREF"
 		(shape input)
-		(at 245.11 116.84 0)
+		(at 234.95 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6457,7 @@
 	)
 	(hierarchical_label "ADC1"
 		(shape bidirectional)
-		(at 241.3 142.24 0)
+		(at 231.14 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6381,7 +6468,7 @@
 	)
 	(hierarchical_label "IO_3"
 		(shape bidirectional)
-		(at 204.47 121.92 0)
+		(at 194.31 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,7 +6479,7 @@
 	)
 	(hierarchical_label "IO_5"
 		(shape bidirectional)
-		(at 204.47 127 0)
+		(at 194.31 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6403,7 +6490,7 @@
 	)
 	(hierarchical_label "IO_2"
 		(shape bidirectional)
-		(at 204.47 119.38 0)
+		(at 194.31 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6414,7 +6501,7 @@
 	)
 	(hierarchical_label "IO_7"
 		(shape bidirectional)
-		(at 204.47 132.08 0)
+		(at 194.31 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6425,7 +6512,7 @@
 	)
 	(hierarchical_label "IO_1"
 		(shape bidirectional)
-		(at 204.47 116.84 0)
+		(at 194.31 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6495,6 +6582,69 @@
 			(project ""
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194c0306-fe3c-424b-a3f0-c7703c93c3ff")
+		(property "Reference" "H3"
+			(at 260.35 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6592,7 +6742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0130_1x13-1MP_P1.00mm_Horizontal"
 			(at 35.56 146.05 0)
 			(effects
 				(font
@@ -6906,35 +7056,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 238.76 148.59 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ac954f0-a70b-477f-ac9a-0723e9df7cb5")
-		(property "Reference" "D3"
-			(at 241.3 147.3199 90)
+		(uuid "68003b77-68f6-438d-ae58-7257fdc6e943")
+		(property "Reference" "H4"
+			(at 260.35 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "3.6V"
-			(at 241.3 149.8599 90)
+		(property "Value" "MountingHole"
+			(at 260.35 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.76 148.59 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +7093,70 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 148.59 0)
+			(at 257.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 228.6 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac954f0-a70b-477f-ac9a-0723e9df7cb5")
+		(property "Reference" "D3"
+			(at 231.14 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6V"
+			(at 231.14 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7165,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 238.76 148.59 0)
+			(at 228.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,7 +7216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -7079,7 +7292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -7273,7 +7486,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 154.94 0)
+		(at 191.77 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7281,7 +7494,7 @@
 		(dnp no)
 		(uuid "804422bd-4d10-4b03-9079-e214ae153930")
 		(property "Reference" "#PWR027"
-			(at 201.93 161.29 0)
+			(at 191.77 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 158.75 0)
+			(at 191.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 154.94 0)
+			(at 191.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 154.94 0)
+			(at 191.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 154.94 0)
+			(at 191.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7681,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 201.93 148.59 270)
+		(at 191.77 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7477,7 +7690,7 @@
 		(fields_autoplaced yes)
 		(uuid "8860cb00-936e-46ed-aa42-40ce153bc480")
 		(property "Reference" "D2"
-			(at 204.47 147.3199 90)
+			(at 194.31 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7699,7 @@
 			)
 		)
 		(property "Value" "3.6V"
-			(at 204.47 149.8599 90)
+			(at 194.31 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,8 +7707,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 148.59 0)
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 148.59 0)
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7726,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 201.93 148.59 0)
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 50.038 90)
 			(effects
 				(font
@@ -7669,7 +7882,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 154.94 0)
+		(at 228.6 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7677,7 +7890,7 @@
 		(dnp no)
 		(uuid "92ff36b8-e0e7-4ffd-af53-79bae53ad8c1")
 		(property "Reference" "#PWR029"
-			(at 238.76 161.29 0)
+			(at 228.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 158.75 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 154.94 0)
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,6 +8269,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34b0885-1966-40a8-9043-234e7293b68d")
+		(property "Reference" "H2"
+			(at 260.35 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 45.72 55.88 0)
 		(unit 1)
@@ -8292,6 +8568,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d67504c4-2a08-4885-9174-43c4aa4a0de7")
+		(property "Reference" "H5"
+			(at 260.35 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 171.45 0)
 		(unit 1)
@@ -8350,6 +8689,69 @@
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5255316-baa4-4e6b-b2de-4b7fd45b19cb")
+		(property "Reference" "H1"
+			(at 260.35 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8415,6 +8817,69 @@
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e633e322-95ba-4703-893c-9de214c02b51")
+		(property "Reference" "H6"
+			(at 260.35 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 257.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/ebe9518e-2944-4824-beeb-b53cdcd0ad9c"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -8574,7 +9039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 47.498 90)
 			(effects
 				(font

@@ -2870,7 +2870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 60.96 93.98 0)
 			(effects
 				(font
