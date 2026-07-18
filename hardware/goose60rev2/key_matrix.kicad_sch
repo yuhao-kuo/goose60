@@ -867,7 +867,7 @@
 		)
 		(uuid "841f098a-0acf-4f80-b9c1-262949939d7d")
 	)
-	(text "\\\n` ~ [HHKB]"
+	(text "` ~ [HHKB]"
 		(exclude_from_sim no)
 		(at 377.952 124.968 0)
 		(effects
@@ -913,7 +913,7 @@
 		)
 		(uuid "96ead67b-c869-439b-8128-c1cdecc3cdce")
 	)
-	(text "BS [HHKB]"
+	(text "\\\nBS [HHKB]"
 		(exclude_from_sim no)
 		(at 387.35 161.29 0)
 		(effects
@@ -1717,12 +1717,6 @@
 		(uuid "87ea0f79-9b1c-4c23-ba33-d1390ae55ce6")
 	)
 	(junction
-		(at 388.62 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "883958e4-6f0e-4712-8eee-f510ab57bf9e")
-	)
-	(junction
 		(at 132.08 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2087,12 +2081,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edeeb005-1ad5-4950-ac1d-b4147222551b")
-	)
-	(junction
-		(at 367.03 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee5ef052-28c8-4acb-a765-871b7884d0d3")
 	)
 	(junction
 		(at 161.29 184.15)
@@ -3378,16 +3366,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 104.14) (xy 367.03 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3767a5e1-dc6c-4068-a082-c58c37824e80")
-	)
-	(wire
-		(pts
 			(xy 351.79 135.89) (xy 344.17 135.89)
 		)
 		(stroke
@@ -3425,16 +3403,6 @@
 			(type default)
 		)
 		(uuid "39997e1a-2c70-438e-a822-aae37fa7df90")
-	)
-	(wire
-		(pts
-			(xy 369.57 111.76) (xy 367.03 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e6d93f-2c19-4263-a673-6bd0eab553fb")
 	)
 	(wire
 		(pts
@@ -5158,16 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 111.76) (xy 388.62 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc7910d-7ec2-4111-9ec5-446ed2650a55")
-	)
-	(wire
-		(pts
 			(xy 45.72 59.69) (xy 45.72 69.85)
 		)
 		(stroke
@@ -5678,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 111.76) (xy 388.62 104.14)
+			(xy 388.62 104.14) (xy 388.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7045,16 +7003,6 @@
 			(type default)
 		)
 		(uuid "e34e54ac-2e13-407f-8722-d4a87bfb136d")
-	)
-	(wire
-		(pts
-			(xy 379.73 111.76) (xy 388.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41e0d73-eced-4ebd-bfda-192c8a0bbdce")
 	)
 	(wire
 		(pts
@@ -9057,7 +9005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 378.46 109.22 0)
 			(effects
 				(font
@@ -9325,7 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 325.12 234.95 0)
 			(effects
 				(font
@@ -9526,7 +9474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 377.19 147.32 0)
 			(effects
 				(font
@@ -10038,7 +9986,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 351.79 180.34 180)
+		(at 351.79 180.34 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10046,7 +9995,7 @@
 		(dnp no)
 		(uuid "4268b806-862c-479a-8138-779c182e6256")
 		(property "Reference" "SW4_13"
-			(at 356.87 183.642 0)
+			(at 356.87 183.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10121,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 330.2 223.52 180)
+		(at 330.2 223.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10180,7 +10130,7 @@
 		(dnp no)
 		(uuid "471fa8ce-7f5d-4073-8416-804e26b2614a")
 		(property "Reference" "SW5_13"
-			(at 323.596 225.552 0)
+			(at 323.342 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 330.2 228.6 0)
 			(effects
 				(font
@@ -10708,7 +10658,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 228.6 180)
+		(at 49.53 228.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10716,7 +10667,7 @@
 		(dnp no)
 		(uuid "53ac449f-00b2-4ca3-a885-413d56054c2a")
 		(property "Reference" "SW5_4"
-			(at 45.212 231.648 0)
+			(at 44.958 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 49.53 233.68 0)
 			(effects
 				(font
@@ -11043,7 +10994,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 199.39 231.14 180)
+		(at 199.39 231.14 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11051,7 +11003,7 @@
 		(dnp no)
 		(uuid "5f8bac89-a891-42ab-9b61-82f85a9f8ab8")
 		(property "Reference" "SW5_9"
-			(at 203.962 234.442 0)
+			(at 203.454 233.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.00u"
 			(at 199.39 236.22 0)
 			(effects
 				(font
@@ -11201,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.75u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 377.19 185.42 0)
 			(effects
 				(font
@@ -11512,7 +11464,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 378.46 66.04 180)
+		(at 378.46 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11520,7 +11472,7 @@
 		(dnp no)
 		(uuid "738c50af-f1d5-451b-9cbc-50ec999af28d")
 		(property "Reference" "SW1_14"
-			(at 374.142 69.088 0)
+			(at 378.46 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11480,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 378.46 71.12 0)
+			(at 378.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +11489,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
-			(at 378.46 71.12 0)
+			(at 378.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +11498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 378.46 71.12 0)
+			(at 378.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +11732,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 354.33 227.33 180)
+		(at 354.33 227.33 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11804,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 354.33 232.41 0)
 			(effects
 				(font
@@ -12651,7 +12604,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 303.53 227.33 180)
+		(at 303.53 227.33 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12675,7 +12629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 303.53 232.41 0)
 			(effects
 				(font
@@ -13211,7 +13165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 378.46 78.74 0)
 			(effects
 				(font
@@ -14058,7 +14012,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 99.06 228.6 180)
+		(at 99.06 228.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14082,7 +14037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 99.06 233.68 0)
 			(effects
 				(font
@@ -15489,7 +15444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.75u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.75u"
 			(at 351.79 193.04 0)
 			(effects
 				(font
@@ -15733,7 +15688,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 228.6 180)
+		(at 73.66 228.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15741,7 +15697,7 @@
 		(dnp no)
 		(uuid "e0c05eeb-91eb-4be0-8830-f2ca14d82584")
 		(property "Reference" "SW5_5"
-			(at 69.342 231.648 0)
+			(at 69.85 231.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +15713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 73.66 233.68 0)
 			(effects
 				(font
@@ -15934,7 +15890,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 199.39 223.52 180)
+		(at 199.39 223.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15942,7 +15899,7 @@
 		(dnp no)
 		(uuid "e5958233-f4ec-4a0c-8145-d937ac5e9888")
 		(property "Reference" "SW5_8"
-			(at 203.708 226.314 0)
+			(at 203.2 226.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15958,7 +15915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_7.00u"
 			(at 199.39 228.6 0)
 			(effects
 				(font
@@ -16738,7 +16695,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 379.73 227.33 180)
+		(at 379.73 227.33 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16746,7 +16704,7 @@
 		(dnp no)
 		(uuid "f5c7532c-edae-4b0a-8372-42b58dd1b7f3")
 		(property "Reference" "SW5_18"
-			(at 374.396 230.378 0)
+			(at 374.142 230.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,7 +16720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
 			(at 379.73 232.41 0)
 			(effects
 				(font
@@ -17066,73 +17024,6 @@
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/7b305d81-944e-47f6-9e16-05645e53394c"
 					(reference "D2_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 374.65 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffd7b4c1-f5d9-435b-a767-3352d7283f61")
-		(property "Reference" "SW2_15"
-			(at 380.238 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 374.65 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
-			(at 374.65 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 374.65 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbae9d1c-54c4-476b-9926-ef433aa99c39")
-		)
-		(pin "2"
-			(uuid "a7d760bd-1915-4478-9200-679aaaccb92f")
-		)
-		(instances
-			(project "goose60rev2"
-				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/7b305d81-944e-47f6-9e16-05645e53394c"
-					(reference "SW2_15")
 					(unit 1)
 				)
 			)

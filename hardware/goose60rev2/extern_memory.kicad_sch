@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
+		(symbol "Memory_Flash:W25Q16JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -280,7 +280,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVS"
+			(property "Value" "W25Q16JVSS"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -289,7 +289,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-				(at 0 22.86 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -297,8 +297,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 25.4 0)
+			(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,8 +306,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-				(at 0 27.94 0)
+			(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -315,7 +315,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
+			(property "ki_keywords" "flash memory SPI"
 				(at 0 0 0)
 				(effects
 					(font
@@ -333,7 +333,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q128JVS_0_1"
+			(symbol "W25Q16JVSS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -346,7 +346,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_1_1"
+			(symbol "W25Q16JVSS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -1673,94 +1673,6 @@
 		(uuid "e947c1d8-48d4-4a47-a34f-07c67fa2fedb")
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 115.57 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c9b8d04-b69b-410f-b3d4-4197245fcc20")
-		(property "Reference" "U3"
-			(at 104.14 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 104.14 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 115.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 115.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "b3e2290a-8afa-4476-9cbe-2fecea6bcb99")
-		)
-		(pin "5"
-			(uuid "8eef4e01-7a7d-4cfb-9049-17a6d92ecadb")
-		)
-		(pin "4"
-			(uuid "f853f58f-beba-4e17-8280-16a2b8e42cd3")
-		)
-		(pin "8"
-			(uuid "9d7667fb-b5f5-46d8-9a42-4977d94ddf3d")
-		)
-		(pin "6"
-			(uuid "40f94741-27fe-4a9c-a85f-ed965734f526")
-		)
-		(pin "1"
-			(uuid "b244284b-4783-4348-8c44-3004011ca6b4")
-		)
-		(pin "2"
-			(uuid "c42b132f-0a5c-4726-80e0-5bb7caffec38")
-		)
-		(pin "3"
-			(uuid "3835273f-6cd9-4f4e-9774-5ce1e53bde78")
-		)
-		(instances
-			(project ""
-				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 140.97 71.12 0)
 		(unit 1)
@@ -2303,7 +2215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx85SMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -2346,6 +2258,94 @@
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q16JVSS")
+		(at 115.57 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a9bdae-3344-41b7-863e-f7d637608cad")
+		(property "Reference" "U3"
+			(at 104.14 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q16JVSS"
+			(at 104.14 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, USON-8 (208 mil)"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f97940fc-dc5d-4f1d-b038-1fb37ff43c53")
+		)
+		(pin "8"
+			(uuid "d85d2477-3455-488a-8303-9a92b8f7425c")
+		)
+		(pin "6"
+			(uuid "7b0a2b17-aa8e-49a1-8f32-eaff23416b64")
+		)
+		(pin "3"
+			(uuid "4028505b-74f4-4b32-8c91-5f09bdada834")
+		)
+		(pin "2"
+			(uuid "0068690e-dbe8-4763-a9a6-52a3a068606e")
+		)
+		(pin "5"
+			(uuid "7632eec1-9d5c-422d-abc9-d2e3995e91cc")
+		)
+		(pin "1"
+			(uuid "2b527273-35ae-4015-98ab-95656ae38acb")
+		)
+		(pin "4"
+			(uuid "681cd425-2c62-4327-b005-a4d9896f0db9")
+		)
+		(instances
+			(project "goose60rev2"
+				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/b38c044c-abd9-4313-9c8a-54897f828a47"
+					(reference "U3")
 					(unit 1)
 				)
 			)
