@@ -347,6 +347,18 @@
 		)
 		(uuid "0ad79dac-ecd9-44f1-8366-32712546617d")
 	)
+	(text "keyboard matrix"
+		(exclude_from_sim no)
+		(at 321.818 261.366 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0eb8cfc3-61d1-4b3c-8570-ddfdab676b7d")
+	)
 	(text "X"
 		(exclude_from_sim no)
 		(at 129.54 199.39 0)
@@ -402,6 +414,18 @@
 			(justify right bottom)
 		)
 		(uuid "17622277-f659-4bdc-a443-01ead06df086")
+	)
+	(text "2025.11.12"
+		(exclude_from_sim no)
+		(at 335.534 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "18ab3337-2434-42e3-aa73-6a5e0883f9d7")
 	)
 	(text "]"
 		(exclude_from_sim no)
@@ -913,6 +937,18 @@
 		)
 		(uuid "96ead67b-c869-439b-8128-c1cdecc3cdce")
 	)
+	(text "keyboard matrix"
+		(exclude_from_sim no)
+		(at 320.294 276.606 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "99f515fb-88de-4db1-9efb-b868627c1142")
+	)
 	(text "\\\nBS [HHKB]"
 		(exclude_from_sim no)
 		(at 387.35 161.29 0)
@@ -968,6 +1004,18 @@
 			(justify right bottom)
 		)
 		(uuid "aec2f97b-e040-400e-a4f7-269a0db9e4e9")
+	)
+	(text "rev2"
+		(exclude_from_sim no)
+		(at 394.716 280.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "af6cd5c2-4f79-42ee-913d-a25dc5374a6f")
 	)
 	(text "/"
 		(exclude_from_sim no)

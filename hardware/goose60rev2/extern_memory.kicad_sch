@@ -1002,6 +1002,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "External Memory"
+		(exclude_from_sim no)
+		(at 198.12 189.738 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "31bbecb3-2ed9-4313-bad9-987f098d5723")
+	)
+	(text "External Memory"
+		(exclude_from_sim no)
+		(at 200.152 174.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "75e100d5-480e-44f2-ac61-992b7096ba2c")
+	)
+	(text "rev2"
+		(exclude_from_sim no)
+		(at 273.812 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "7a8d2cb2-a855-44b6-b503-6e8c716633a2")
+	)
+	(text "2025.11.12"
+		(exclude_from_sim no)
+		(at 213.868 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ad170c5d-7a76-4e71-9ad7-6bb949438323")
+	)
 	(junction
 		(at 132.08 77.47)
 		(diameter 0)

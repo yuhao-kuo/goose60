@@ -1389,6 +1389,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power Manager"
+		(exclude_from_sim no)
+		(at 199.39 174.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "811ae008-d480-49ff-b439-4cec929b9234")
+	)
+	(text "2025.11.12"
+		(exclude_from_sim no)
+		(at 213.106 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8d2622fe-e80e-4b5f-9b99-9f232f55ec11")
+	)
+	(text "rev2"
+		(exclude_from_sim no)
+		(at 273.05 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "9752cd62-1be0-47fa-84ce-a102928f0b09")
+	)
+	(text "Power Manager"
+		(exclude_from_sim no)
+		(at 197.358 189.738 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d3a1e24d-f42f-4036-90fd-abcd47105ea5")
+	)
 	(junction
 		(at 190.5 85.09)
 		(diameter 0)

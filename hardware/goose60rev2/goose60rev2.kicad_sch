@@ -2600,6 +2600,54 @@
 		)
 		(uuid "0c5cf134-6de2-447d-8363-39fffb894122")
 	)
+	(text "2025.11.12"
+		(exclude_from_sim no)
+		(at 212.852 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "1732dfae-2ab1-4028-9ca9-e0a961a27d85")
+	)
+	(text "Goose60 rev2"
+		(exclude_from_sim no)
+		(at 199.136 174.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "43f3ad3c-adff-4b1a-bc42-901893e27b57")
+	)
+	(text "rev2"
+		(exclude_from_sim no)
+		(at 272.796 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c628b28b-7e09-406c-adac-f9e1c40f706a")
+	)
+	(text "Goose60 rev2"
+		(exclude_from_sim no)
+		(at 197.104 189.738 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c7f7b607-7dfa-42ba-8dde-f2c022246f69")
+	)
 	(junction
 		(at 96.52 27.94)
 		(diameter 0)
