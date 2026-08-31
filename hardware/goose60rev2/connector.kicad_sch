@@ -3876,6 +3876,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias ""
+		(members)
+	)
 	(rectangle
 		(start 24.13 24.13)
 		(end 129.54 101.6)

@@ -5199,6 +5199,7 @@
 		(uuid "0d4f7ad6-9687-4f7f-b829-6e000019334c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.0765 163.83 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
