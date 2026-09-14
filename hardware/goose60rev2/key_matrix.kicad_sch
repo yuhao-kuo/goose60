@@ -1297,12 +1297,6 @@
 		(uuid "090d0c29-1616-4057-b2b2-e212711e186b")
 	)
 	(junction
-		(at 191.77 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b4abb8b-d46c-4686-a0eb-9cf67491d73f")
-	)
-	(junction
 		(at 82.55 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1645,12 +1639,6 @@
 		(uuid "65710dab-8c52-4709-a501-850c24d23149")
 	)
 	(junction
-		(at 318.77 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65da2bfd-6d15-49fb-9054-fcdd594fffcc")
-	)
-	(junction
 		(at 233.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1733,12 +1721,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a20eca3-a22a-4485-bd4b-d6a5bbff0f5b")
-	)
-	(junction
-		(at 336.55 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd92d0b-abfb-4bce-8d09-e97fb737ab20")
 	)
 	(junction
 		(at 59.69 69.85)
@@ -2081,12 +2063,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3f634bc-f3a1-4918-9efe-b73a38199555")
-	)
-	(junction
-		(at 209.55 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e467d3e2-a34a-4ed9-a355-3fc294f3b11a")
 	)
 	(junction
 		(at 389.89 73.66)
@@ -3554,16 +3530,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 223.52) (xy 191.77 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd84339-8586-4245-a032-41c58d57da17")
-	)
-	(wire
-		(pts
 			(xy 335.28 129.54) (xy 335.28 135.89)
 		)
 		(stroke
@@ -3971,16 +3937,6 @@
 			(type default)
 		)
 		(uuid "50cac34f-9406-42cf-9aba-dfa8c302900e")
-	)
-	(wire
-		(pts
-			(xy 318.77 223.52) (xy 318.77 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a8309a-c8a5-4c06-b68b-8b17bb0ce35c")
 	)
 	(wire
 		(pts
@@ -6384,16 +6340,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 231.14) (xy 191.77 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf72e400-6491-4b8d-abdc-6b13ea05107f")
-	)
-	(wire
-		(pts
 			(xy 158.75 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -6811,16 +6757,6 @@
 			(type default)
 		)
 		(uuid "d7485b1a-1dfc-44f9-be3d-0971dd97316c")
-	)
-	(wire
-		(pts
-			(xy 320.04 229.87) (xy 318.77 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e15901-87ae-4afd-b467-fb875eaf23db")
 	)
 	(wire
 		(pts
@@ -7314,16 +7250,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 229.87) (xy 336.55 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1136c3c-3b4b-44fd-ba1a-3677dc71f67c")
-	)
-	(wire
-		(pts
 			(xy 356.87 187.96) (xy 361.95 187.96)
 		)
 		(stroke
@@ -7501,16 +7427,6 @@
 			(type default)
 		)
 		(uuid "f8d4d640-dd95-4b6e-afac-4aa4bdb78c5d")
-	)
-	(wire
-		(pts
-			(xy 204.47 231.14) (xy 209.55 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d6b0c6-a6b2-44f1-90ee-cae045a91549")
 	)
 	(wire
 		(pts
@@ -9296,73 +9212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 325.12 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "275f7011-dbf7-4c2a-b822-1ce74e16e305")
-		(property "Reference" "SW5_14"
-			(at 332.486 231.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 325.12 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 325.12 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77c2b002-b0d8-4971-9bcb-82fcb2af9d46")
-		)
-		(pin "2"
-			(uuid "7a11558f-ea64-4d89-b4d3-d66ee4f35eaf")
-		)
-		(instances
-			(project "goose60rev2"
-				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/7b305d81-944e-47f6-9e16-05645e53394c"
-					(reference "SW5_14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 280.67 59.69 180)
 		(unit 1)
@@ -11035,74 +10884,6 @@
 			(project "goose60rev2"
 				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/7b305d81-944e-47f6-9e16-05645e53394c"
 					(reference "D5_12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 199.39 231.14 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f8bac89-a891-42ab-9b61-82f85a9f8ab8")
-		(property "Reference" "SW5_9"
-			(at 203.454 233.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 199.39 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_6.00u"
-			(at 199.39 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56ac6689-67d0-465b-be0e-f30e020ada26")
-		)
-		(pin "2"
-			(uuid "54c656e2-580e-41af-8bc3-b3ef9f528d33")
-		)
-		(instances
-			(project "goose60rev2"
-				(path "/6ebc9a41-9721-4591-a32f-d06e561fa915/7b305d81-944e-47f6-9e16-05645e53394c"
-					(reference "SW5_9")
 					(unit 1)
 				)
 			)
